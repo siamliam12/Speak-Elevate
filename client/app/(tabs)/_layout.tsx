@@ -31,7 +31,7 @@ export default function TabLayout() {
           account: 'Profile',
         };
 
-        const title = titles[route.name] || 'Default'; 
+        const title = titles[route.name as keyof typeof titles] || 'Default'; 
 
         return {
           header: () => <CustomHeader title={title} />, 

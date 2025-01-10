@@ -1,6 +1,6 @@
 import { Image, StyleSheet, Platform, View, Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import mic from '../../assets/images/microphone-with-wire.png'
+import mic from '../../assets/images/microphone-with-wire.png';
 import { Box } from '@/components/ui/box';
 import { LinearGradient } from 'expo-linear-gradient';
 import {
